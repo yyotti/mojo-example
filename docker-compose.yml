@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: .
+      args:
+        MODULAR_AUTH: "${MODULAR_AUTH:-}"
+    volumes:
+      - ./app:/app
