@@ -1,5 +1,6 @@
 fn main():
-    greet("日本語どうかな");
+    greet("日本語どうかな")
+
 
 fn greet(msg: String):
     print("Hello, world!!")
