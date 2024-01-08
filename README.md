@@ -3,6 +3,10 @@ Try [Mojo](https://docs.modular.com/mojo/) with Docker.
 
 # Try
 1. `git clone https://github.com/yyotti/mojo-example.git`.
+1. `cd ./mojo-example`
+1. `cp .env.local .env`
+1. Open `.env` file in a text editor, and write the modular auth token.
+    - [Get token](https://developer.modular.com/download)
 1. `docker compose build`
 1. `docker compose run app`
 1. In docker container:
